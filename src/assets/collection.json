@@ -1,0 +1,6 @@
+{
+    "name": "WNS Mini Mad Lads",
+    "symbol": "WNS_MAD",
+    "uri": "https://madlads-collection.s3.us-west-2.amazonaws.com/_collection.json",
+    "maxSize": 5
+}
