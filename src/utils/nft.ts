@@ -31,13 +31,14 @@ export const buildMintNftIx = async (provider: Provider, args: CreateNftArgs, mi
     return ix;
 };
 
-export const buildAddGroupIx = async (provider: Provider, collectionAuthority: string, mint: string, collectionMint: string) => {
+export const buildAddGroupIx = async (provider: Provider, payer: string, collectionAuthority: string, mint: string, collectionMint: string) => {
     const metadataProgram = getMetadataProgram(provider);
 
     const groupAccount = getGroupAccount(collectionMint);
     const memberAccount = getMemberAccount(mint);
     const collectionAuthPubkey = new PublicKey(collectionAuthority);
     const mintPubkey = new PublicKey(mint);
+    const payerPubkey = new PublicKey(payer);
 
     const ix = await metadataProgram.methods
         .addGroupToMint()
@@ -55,12 +56,13 @@ export const buildAddGroupIx = async (provider: Provider, collectionAuthority: s
     return ix;
 }
 
-export const buildAddRoyaltiesIx = async (provider: Provider, metadataAuthority: string, mint: string, royaltyBasisPoints: number, creators: Creator[]) => {
+export const buildAddRoyaltiesIx = async (provider: Provider, payer: string, metadataAuthority: string, mint: string, royaltyBasisPoints: number, creators: Creator[]) => {
     const metadataProgram = getMetadataProgram(provider);
 
     const extraMetasAccount = getExtraMetasAccount(mint);
     const metadataAuthPubkey = new PublicKey(metadataAuthority);
     const mintPubkey = new PublicKey(mint);
+    const payerPubkey = new PublicKey(payer);
 
     const ix = await metadataProgram.methods
         .addRoyaltiesToMint({
@@ -68,7 +70,7 @@ export const buildAddRoyaltiesIx = async (provider: Provider, metadataAuthority:
             creators
         })
         .accountsStrict({
-            payer: metadataAuthPubkey,
+            payer: payerPubkey,
             authority: metadataAuthPubkey,
             systemProgram: SystemProgram.programId,
             rent: SYSVAR_RENT_PUBKEY,

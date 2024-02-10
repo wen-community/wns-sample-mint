@@ -64,8 +64,8 @@ export const mintNft = async (args: { name: string; symbol: string; uri: string;
     }
 
     const mintIx = await buildMintNftIx(provider, mintDetails, minterPubkey.toString(), nftAuthPubkey.toString());
-    const addToGroupIx = await buildAddGroupIx(provider, groupAuthPubkey.toString(), mintPubkey.toString(), collectionPubkey.toString());
-    const addRoyaltiesToMintIx = await buildAddRoyaltiesIx(provider, nftAuthPubkey.toString(), mintPubkey.toString(), args.royaltyBasisPoints, args.creators);
+    const addToGroupIx = await buildAddGroupIx(provider, minterPubkey.toString(), groupAuthPubkey.toString(), mintPubkey.toString(), collectionPubkey.toString());
+    const addRoyaltiesToMintIx = await buildAddRoyaltiesIx(provider, minterPubkey.toString(), nftAuthPubkey.toString(), mintPubkey.toString(), args.royaltyBasisPoints, args.creators);
 
     let blockhash = await provider.connection
         .getLatestBlockhash()
