@@ -43,7 +43,7 @@ export const buildAddGroupIx = async (provider: Provider, payer: string, collect
     const ix = await metadataProgram.methods
         .addGroupToMint()
         .accountsStrict({
-            payer: collectionAuthPubkey,
+            payer: payerPubkey,
             authority: collectionAuthPubkey,
             mint: mintPubkey,
             systemProgram: SystemProgram.programId,
