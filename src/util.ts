@@ -32,7 +32,9 @@ export const createCollectionWithRoyalties = async (args: { name: string; symbol
     const txn = new VersionedTransaction(messageV0);
 
     txn.sign([authority, collectionMint]);
-    const _sig = await provider.connection.sendTransaction(txn);
+    const _sig = await provider.connection.sendTransaction(txn, {
+        preflightCommitment: "confirmed"
+    });
 
     return {
         collection: collectionMint.publicKey.toString()
@@ -78,7 +80,9 @@ export const mintNft = async (args: { name: string; symbol: string; uri: string;
     const txn = new VersionedTransaction(messageV0);
 
     txn.sign([minter, groupAuthority, nftAuthority, mint]);
-    const sig = await provider.connection.sendTransaction(txn);
+    const sig = await provider.connection.sendTransaction(txn, {
+        preflightCommitment: "confirmed"
+    });
 
     return {
         txn: sig,

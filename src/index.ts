@@ -1,5 +1,6 @@
 import express from "express";
 import { setupCollection, mintNftsToCollection } from "./mint";
+import { transferNft } from "./transfer";
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
@@ -13,6 +14,11 @@ app.post("/initializeCollection", async (req, res) => {
 app.post("/mintNftsToCollection", async (req, res) => {
     const responses = await mintNftsToCollection(req.body.collection);
     res.send(responses);
+});
+
+app.post("/transferNft", async (req, res) => {
+    const transferId = await transferNft(req.body);
+    res.send(transferId);
 });
 
 app.get("/", async function (_, res) {
