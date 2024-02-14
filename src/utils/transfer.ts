@@ -1,6 +1,6 @@
 import { PublicKey, SystemProgram } from "@solana/web3.js";
 import { BN, Provider } from "@coral-xyz/anchor";
-import { ASSOCIATED_TOKEN_PROGRAM_ID, createAssociatedTokenAccountInstruction, createTransferCheckedWithTransferHookInstruction } from "@solana/spl-token";
+import { ASSOCIATED_TOKEN_PROGRAM_ID, createAssociatedTokenAccountInstruction, createTransferCheckedInstruction, createTransferCheckedWithTransferHookInstruction } from "@solana/spl-token";
 import { getATAAddressSync, getApprovalAccount, getDistributionAccount, getMetadataProgram } from "./core";
 import { TOKEN_PROGRAM_ID, DISTRIBUTION_PROGRAM_ID } from "./constants";
 
@@ -64,7 +64,7 @@ export const buildTransferIx = async (provider: Provider, mint: string, sender: 
     const senderPubkey = new PublicKey(sender);
     const receiverPubkey = new PublicKey(receiver);
 
-    // // get transfer ix
+    // get transfer ix
     const transferIx = await createTransferCheckedWithTransferHookInstruction(
         provider.connection,
         getATAAddressSync({ mint: mintPubkey, owner: senderPubkey }),

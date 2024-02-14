@@ -1,5 +1,5 @@
 import { Keypair, PublicKey, TransactionMessage, VersionedTransaction } from "@solana/web3.js";
-import { CreateCollectionArgs, CreateNftArgs, Creator, TransferNftArgs } from "./utils/interfaces";
+import { CreateCollectionArgs, CreateNftArgs, Creator, PurchaseNftArgs, TransferNftArgs } from "./utils/interfaces";
 import { USER_ACCOUNT, buildCreateCollectionIx, getProvider, CONNECTION_URL, AUTHORITY_ACCOUNT, buildAddDistributionIx, buildMintNftIx, buildAddGroupIx, buildAddRoyaltiesIx, buildApproveIx, buildAtaCreateIx, buildTransferIx, buildClaimDistributionIx } from "./utils";
 
 export const createCollectionWithRoyalties = async (args: { name: string; symbol: string; uri: string; maxSize: number; }) => {
@@ -90,9 +90,9 @@ export const mintNft = async (args: { name: string; symbol: string; uri: string;
     }
 }
 
-export const transferMint = async (args: TransferNftArgs) => {
+export const purchaseNft = async (args: PurchaseNftArgs) => {
     const provider = getProvider(CONNECTION_URL);
-    const paymentAmount = args.paymentAmount;
+    const paymentAmount = args.paymentLamports;
 
     // Only supporting SOL to start
     // const paymentMint = args.paymentMint;
@@ -103,7 +103,7 @@ export const transferMint = async (args: TransferNftArgs) => {
     // Assume keypair from ENV, should change to better way to determine signer
     const sender = USER_ACCOUNT.publicKey.toString();
 
-    const destination = args.to;
+    const destination = args.buyer;
 
     const approveIx = await buildApproveIx(provider, sender, nftMint, collection, paymentAmount, paymentMint);
     const createAtaIx = await buildAtaCreateIx(sender, nftMint, destination);
@@ -116,6 +116,36 @@ export const transferMint = async (args: TransferNftArgs) => {
         payerKey: new PublicKey(sender),
         recentBlockhash: blockhash,
         instructions: [ approveIx, createAtaIx, transferIx ],
+    }).compileToV0Message();
+    const txn = new VersionedTransaction(messageV0);
+
+    txn.sign([USER_ACCOUNT]);
+    const sig = await provider.connection.sendTransaction(txn);
+
+    return {
+        txn: sig
+    };
+};
+
+export const transferNft = async (args: TransferNftArgs) => {
+    const provider = getProvider(CONNECTION_URL);
+
+    const nftMint = args.nftMint;
+    // Assume keypair from ENV, should change to better way to determine signer
+    const sender = USER_ACCOUNT.publicKey.toString();
+
+    const destination = args.to;
+
+    const createAtaIx = await buildAtaCreateIx(sender, nftMint, destination);
+    const transferIx = await buildTransferIx(provider, nftMint, sender, destination);
+
+    let blockhash = await provider.connection
+        .getLatestBlockhash()
+        .then(res => res.blockhash);
+    const messageV0 = new TransactionMessage({
+        payerKey: new PublicKey(sender),
+        recentBlockhash: blockhash,
+        instructions: [ createAtaIx, transferIx ],
     }).compileToV0Message();
     const txn = new VersionedTransaction(messageV0);
 

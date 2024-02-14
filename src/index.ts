@@ -1,6 +1,6 @@
 import express from "express";
 import { setupCollection, mintNftsToCollection } from "./mint";
-import { transferNft } from "./transfer";
+import { sendNftPurchase, sendNftTransfer } from "./transfer";
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
@@ -16,9 +16,28 @@ app.post("/mintNftsToCollection", async (req, res) => {
     res.send(responses);
 });
 
+app.post("/purchaseNft", async (req, res) => {
+    /*
+        Will use USER_ACCOUNT as signer and "from" account
+        BODY --
+        collection: string;
+        nftMint: string;
+        paymentAmount: number;
+        buyer: string;
+    */
+    const txn = await sendNftPurchase(req.body);
+    res.send(txn);
+});
+
 app.post("/transferNft", async (req, res) => {
-    const transferId = await transferNft(req.body);
-    res.send(transferId);
+    /*
+        Will use USER_ACCOUNT as signer and "from" account
+        BODY --
+        nftMint: string;
+        to: string;
+    */
+    const txn = await sendNftTransfer(req.body);
+    res.send(txn);
 });
 
 app.get("/", async function (_, res) {
