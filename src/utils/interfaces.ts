@@ -1,3 +1,5 @@
+import { PublicKey } from "@solana/web3.js";
+
 // Create collection
 export interface CreateCollectionArgs {
     mint: string;
@@ -16,6 +18,7 @@ export interface CreateNftArgs {
     name: string;
     symbol: string;
     uri: string;
+    permanent_delegate: boolean;
 }
 
 // Add NFT to Group

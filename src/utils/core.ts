@@ -70,7 +70,7 @@ export const getExtraMetasAccount = (mint: string) => {
 }
 
 export const getDistributionAccount = (collection: string) => {
-    const [distributionAccount] = PublicKey.findProgramAddressSync([new PublicKey(collection).toBuffer()], DISTRIBUTION_PROGRAM_ID);
+    const [distributionAccount] = PublicKey.findProgramAddressSync([new PublicKey(collection).toBuffer(), PublicKey.default.toBuffer()], DISTRIBUTION_PROGRAM_ID);
 
     return distributionAccount;
 }

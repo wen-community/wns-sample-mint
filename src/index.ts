@@ -1,6 +1,7 @@
 import express from "express";
 import { setupCollection, mintNftsToCollection } from "./mint";
 import { sendNftPurchase, sendNftTransfer } from "./transfer";
+import { createDistribution, fetchDistribution } from "./util";
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
@@ -36,8 +37,39 @@ app.post("/transferNft", async (req, res) => {
         nftMint: string;
         to: string;
     */
+   try {
     const txn = await sendNftTransfer(req.body);
     res.send(txn);
+   } catch (e) {
+    res.send(e.message);
+   }
+});
+
+app.post("/initDistribution", async (req, res) => {
+    /*
+        Will use USER_ACCOUNT as signer
+        BODY --
+        collection: string;
+    */
+   try {
+    const txn = await createDistribution(req.body);
+    res.send(txn);
+   } catch (e) {
+    res.send(e.message);
+   }
+});
+
+app.post("/fetchDistribution", async (req, res) => {
+    /*
+        BODY --
+        distribution: string;
+    */
+   try {
+    const txn = await fetchDistribution(req.body);
+    res.send(txn);
+   } catch (e) {
+    res.send(e.message);
+   }
 });
 
 app.get("/", async function (_, res) {

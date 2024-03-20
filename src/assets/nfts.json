@@ -1,60 +1,1200 @@
 [
     {
-        "name": "Mad Lads #1",
-        "symbol": "MAD",
-        "uri": "https://madlads.s3.us-west-2.amazonaws.com/json/1.json",
-        "royaltyBasisPoints": 420,
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
         "creators": [
             {
-                "address": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW",
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
                 "share": 100
             }
         ]
     },
     {
-        "name": "Mad Lads #100",
-        "symbol": "MAD",
-        "uri": "https://madlads.s3.us-west-2.amazonaws.com/json/100.json",
-        "royaltyBasisPoints": 420,
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
         "creators": [
             {
-                "address": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW",
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
                 "share": 100
             }
         ]
     },
     {
-        "name": "Mad Lads #420",
-        "symbol": "MAD",
-        "uri": "https://madlads.s3.us-west-2.amazonaws.com/json/420.json",
-        "royaltyBasisPoints": 420,
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
         "creators": [
             {
-                "address": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW",
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
                 "share": 100
             }
         ]
     },
     {
-        "name": "Mad Lads #690",
-        "symbol": "MAD",
-        "uri": "https://madlads.s3.us-west-2.amazonaws.com/json/690.json",
-        "royaltyBasisPoints": 420,
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
         "creators": [
             {
-                "address": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW",
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
                 "share": 100
             }
         ]
     },
     {
-        "name": "Mad Lads #6447",
-        "symbol": "MAD",
-        "uri": "https://madlads.s3.us-west-2.amazonaws.com/json/6447.json",
-        "royaltyBasisPoints": 420,
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
         "creators": [
             {
-                "address": "2RtGg6fsFiiF1EQzHqbd66AhW7R5bWeQGpTbv2UMkCdW",
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
+                "share": 100
+            }
+        ]
+    },
+    {
+        "name": "Degen Wen",
+        "symbol": "POET",
+        "uri": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/degen_wen.json",
+        "royaltyBasisPoints": 500,
+        "creators": [
+            {
+                "address": "ART5dr4bDic2sQVZoFheEmUxwQq5VGSx9he7JxHcXNQD",
                 "share": 100
             }
         ]

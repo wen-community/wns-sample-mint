@@ -23,7 +23,7 @@ export const buildApproveIx = async (provider: Provider, sender: string, mint: s
 
     // get approve ix
     const approveIx = await metadataProgram.methods
-        .approve(new BN(paymentAmount))
+        .approveTransfer(new BN(paymentAmount))
         .accountsStrict({
             payer: senderPubkey,
             authority: senderPubkey,
@@ -33,9 +33,9 @@ export const buildApproveIx = async (provider: Provider, sender: string, mint: s
             approveAccount,
             associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
             tokenProgram: TOKEN_PROGRAM_ID,
-            payerAddress: senderTokenAccount,
-            distribution: distributionAccount,
-            distributionAddress: programTokenAccount,
+            authorityTokenAccount: senderTokenAccount,
+            distributionAccount: distributionAccount,
+            distributionTokenAccount: programTokenAccount,
             distributionProgram: DISTRIBUTION_PROGRAM_ID
         })
         .instruction();
