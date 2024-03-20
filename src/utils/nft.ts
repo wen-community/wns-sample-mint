@@ -15,7 +15,7 @@ export const buildMintNftIx = async (provider: Provider, args: CreateNftArgs, mi
     const minterPubkey = new PublicKey(minter);
 
     const ix = await metadataProgram.methods
-        .createMintAccount(args)
+        .createMintAccount({ name: args.name, symbol: args.symbol, uri: args.uri, permanentDelegate: PublicKey.default })
         .accountsStrict({
             payer: minterPubkey,
             authority: authorityPubkey,
@@ -26,8 +26,7 @@ export const buildMintNftIx = async (provider: Provider, args: CreateNftArgs, mi
             rent: SYSVAR_RENT_PUBKEY,
             associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
             tokenProgram: TOKEN_PROGRAM_ID,
-            manager: managerAccount,
-            extraMetasAccount,
+            manager: managerAccount
         })
         .instruction();
     return ix;
@@ -37,21 +36,23 @@ export const buildAddGroupIx = async (provider: Provider, payer: string, collect
     const metadataProgram = getMetadataProgram(provider);
 
     const groupAccount = getGroupAccount(collectionMint);
+    const manager = getManagerAccount();
     const memberAccount = getMemberAccount(mint);
     const collectionAuthPubkey = new PublicKey(collectionAuthority);
     const mintPubkey = new PublicKey(mint);
     const payerPubkey = new PublicKey(payer);
 
     const ix = await metadataProgram.methods
-        .addGroupToMint()
+        .addMintToGroup()
         .accountsStrict({
             payer: payerPubkey,
             authority: collectionAuthPubkey,
-            mint: mintPubkey,
-            systemProgram: SystemProgram.programId,
-            tokenProgram: TOKEN_PROGRAM_ID,
             group: groupAccount,
-            member: memberAccount
+            member: memberAccount,
+            mint: mintPubkey,
+            manager,
+            systemProgram: SystemProgram.programId,
+            tokenProgram: TOKEN_PROGRAM_ID
         })
         .instruction();
 
@@ -66,17 +67,22 @@ export const buildAddRoyaltiesIx = async (provider: Provider, payer: string, met
     const mintPubkey = new PublicKey(mint);
     const payerPubkey = new PublicKey(payer);
 
+    const pubkeyCreators = creators.map((c) => {
+        return {
+            share: c.share,
+            address: new PublicKey(c.address)
+        }
+    });
+
     const ix = await metadataProgram.methods
-        .addRoyaltiesToMint({
+        .addRoyalties({
             royaltyBasisPoints,
-            creators
+            creators: pubkeyCreators
         })
         .accountsStrict({
             payer: payerPubkey,
             authority: metadataAuthPubkey,
             systemProgram: SystemProgram.programId,
-            rent: SYSVAR_RENT_PUBKEY,
-            associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
             tokenProgram: TOKEN_PROGRAM_ID,
             extraMetasAccount,
             mint: mintPubkey,

@@ -6,17 +6,16 @@ import { TOKEN_PROGRAM_ID } from "./constants";
 export const buildAddDistributionIx = async (provider: Provider, collection: string, authority: string) => {
     const distributionProgram = getDistributionProgram(provider);
     const distributionAccount = getDistributionAccount(collection);
-    
+    console.log({ distribution: distributionAccount.toString() });
     const authorityPubkey = new PublicKey(authority);
 
     const ix = await distributionProgram.methods
-        .initializeDistribution()
+        .initializeDistribution(PublicKey.default)
         .accountsStrict({
             payer: authorityPubkey,
-            authority: authorityPubkey,
-            mint: collection,
+            groupMint: collection,
             systemProgram: SystemProgram.programId,
-            distribution: distributionAccount,
+            distributionAccount,
         })
         .instruction();
 
@@ -41,11 +40,10 @@ export const buildClaimDistributionIx = async (provider: Provider, collection: s
     const ix = await distributionProgram.methods
         .claimDistribution(mintPubkey)
         .accountsStrict({
-            payer: creatorPubkey,
             creator: creatorPubkey,
             distribution: distributionAccount,
-            payerAddress: creatorTokenAccount,
-            distributionAddress: programTokenAccount,
+            creatorTokenAccount,
+            distributionTokenAccount: programTokenAccount,
             tokenProgram: TOKEN_PROGRAM_ID,
         })
         .instruction();
@@ -53,3 +51,10 @@ export const buildClaimDistributionIx = async (provider: Provider, collection: s
     return ix;
 };
 
+export const fetchDistributionAccount = async (provider: Provider, distribution: string) => {
+    const distributionProgram = getDistributionProgram(provider);
+
+    const acc = await distributionProgram.account.distributionAccount.fetch(distribution);
+
+    console.log({ acc });
+}

@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1-alpha",
+  "version": "0.2.0-alpha",
   "name": "wen_royalty_distribution",
   "instructions": [
     {
@@ -14,6 +14,35 @@
           "isSigner": true
         },
         {
+          "name": "groupMint",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "distributionAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "paymentMint",
+          "type": "publicKey"
+        }
+      ]
+    },
+    {
+      "name": "updateDistribution",
+      "docs": [
+        "Update royalty amount for creators a distribution account."
+      ],
+      "accounts": [
+        {
           "name": "authority",
           "isMut": true,
           "isSigner": true
@@ -24,46 +53,17 @@
           "isSigner": false
         },
         {
-          "name": "distribution",
+          "name": "distributionAccount",
           "isMut": true,
           "isSigner": false
         },
         {
-          "name": "systemProgram",
-          "isMut": false,
-          "isSigner": false
-        }
-      ],
-      "args": []
-    },
-    {
-      "name": "updateDistribution",
-      "docs": [
-        "Update royalty amount for creators a distribution account."
-      ],
-      "accounts": [
-        {
-          "name": "payer",
-          "isMut": true,
-          "isSigner": true
-        },
-        {
-          "name": "authority",
-          "isMut": true,
-          "isSigner": true
-        },
-        {
-          "name": "distribution",
+          "name": "authorityTokenAccount",
           "isMut": true,
           "isSigner": false
         },
         {
-          "name": "distributionAddress",
-          "isMut": true,
-          "isSigner": false
-        },
-        {
-          "name": "payerAddress",
+          "name": "distributionTokenAccount",
           "isMut": true,
           "isSigner": false
         },
@@ -99,11 +99,6 @@
       ],
       "accounts": [
         {
-          "name": "payer",
-          "isMut": true,
-          "isSigner": true
-        },
-        {
           "name": "creator",
           "isMut": true,
           "isSigner": true
@@ -114,12 +109,12 @@
           "isSigner": false
         },
         {
-          "name": "distributionAddress",
+          "name": "distributionTokenAccount",
           "isMut": true,
           "isSigner": false
         },
         {
-          "name": "payerAddress",
+          "name": "creatorTokenAccount",
           "isMut": true,
           "isSigner": false
         },
@@ -144,15 +139,28 @@
         "kind": "struct",
         "fields": [
           {
-            "name": "collection",
+            "name": "version",
+            "docs": [
+              "distribution version"
+            ],
+            "type": "u8"
+          },
+          {
+            "name": "groupMint",
+            "docs": [
+              "group to which the distribution account belongs to"
+            ],
             "type": "publicKey"
           },
           {
-            "name": "authority",
+            "name": "paymentMint",
+            "docs": [
+              "payment mint for the distribution account"
+            ],
             "type": "publicKey"
           },
           {
-            "name": "data",
+            "name": "claimData",
             "type": {
               "vec": {
                 "defined": "Creator"
@@ -171,10 +179,16 @@
         "fields": [
           {
             "name": "address",
+            "docs": [
+              "creator address"
+            ],
             "type": "publicKey"
           },
           {
             "name": "pct",
+            "docs": [
+              "creator share percentage"
+            ],
             "type": "u8"
           }
         ]
@@ -192,14 +206,6 @@
           {
             "name": "paymentMint",
             "type": "publicKey"
-          },
-          {
-            "name": "creators",
-            "type": {
-              "vec": {
-                "defined": "CreatorShare"
-              }
-            }
           }
         ]
       }
@@ -211,10 +217,16 @@
         "fields": [
           {
             "name": "address",
+            "docs": [
+              "creator address"
+            ],
             "type": "publicKey"
           },
           {
-            "name": "amount",
+            "name": "claimAmount",
+            "docs": [
+              "token amount that creator can claim"
+            ],
             "type": "u64"
           }
         ]
@@ -224,8 +236,18 @@
   "errors": [
     {
       "code": 6000,
+      "name": "InvalidGroupAuthority",
+      "msg": "Invalid Group Authority for collection account"
+    },
+    {
+      "code": 6001,
       "name": "InvalidCreatorPctAmount",
       "msg": "Invalid creator pct amount. Must add up to 100"
+    },
+    {
+      "code": 6002,
+      "name": "ArithmeticOverflow",
+      "msg": "Arithmetic overflow"
     }
   ]
 }
