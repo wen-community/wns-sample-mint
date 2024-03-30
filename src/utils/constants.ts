@@ -1,4 +1,5 @@
-import { PublicKey, Keypair } from "@solana/web3.js";
+import {Keypair, PublicKey} from "@solana/web3.js";
+import 'dotenv/config';
 
 export const TOKEN_PROGRAM_ID = new PublicKey("TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb");
 export const DISTRIBUTION_PROGRAM_ID = new PublicKey("diste3nXmK7ddDTs1zb6uday6j4etCa9RChD8fJ1xay");
