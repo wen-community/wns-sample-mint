@@ -10,12 +10,13 @@ export const buildMintNftIx = async (provider: Provider, args: CreateNftArgs, mi
     const managerAccount = getManagerAccount();
 
     const mintPubkey = new PublicKey(args.mint);
-    const extraMetasAccount = getExtraMetasAccount(args.mint);
     const authorityPubkey = new PublicKey(authority);
     const minterPubkey = new PublicKey(minter);
 
+    const permDel = args.permanent_delegate !== null ? new PublicKey(args.permanent_delegate) : null;
+
     const ix = await metadataProgram.methods
-        .createMintAccount({ name: args.name, symbol: args.symbol, uri: args.uri, permanentDelegate: PublicKey.default })
+        .createMintAccount({ name: args.name, symbol: args.symbol, uri: args.uri, permanentDelegate: permDel })
         .accountsStrict({
             payer: minterPubkey,
             authority: authorityPubkey,

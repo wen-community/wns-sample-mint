@@ -18,7 +18,7 @@ export interface CreateNftArgs {
     name: string;
     symbol: string;
     uri: string;
-    permanent_delegate: boolean;
+    permanent_delegate: string | null;
 }
 
 // Add NFT to Group

@@ -89,7 +89,7 @@ export const fetchDistribution = async (args: { distribution: string; }) => {
     return "OK";
 }
 
-export const mintNft = async (args: { name: string; symbol: string; uri: string; collection: string; royaltyBasisPoints: number; creators: Creator[] }) => {
+export const mintNft = async (args: { name: string; symbol: string; uri: string; permanentDelegate: string | null, collection: string; royaltyBasisPoints: number; creators: Creator[] }) => {
     const mint = new Keypair();
     const mintPubkey = mint.publicKey;
     const provider = getProvider(CONNECTION_URL);
@@ -110,7 +110,7 @@ export const mintNft = async (args: { name: string; symbol: string; uri: string;
         symbol: args.symbol,
         uri: args.uri,
         mint: mintPubkey.toString(),
-        permanent_delegate: false
+        permanent_delegate: args.permanentDelegate
     }
 
     const prioFeeIx = ComputeBudgetProgram.setComputeUnitPrice({
