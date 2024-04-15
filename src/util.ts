@@ -18,6 +18,10 @@ export const createCollectionWithRoyalties = async (args: { name: string; symbol
         mint: collectionPubkey.toString()
     }
 
+    const prioIx = ComputeBudgetProgram.setComputeUnitPrice({
+        microLamports: 250_000
+    });
+
     const { ix: createCollectionIx, group } = await buildCreateCollectionIx(provider, collectionArgs, authorityPubkey.toString());
     const addDistributionIx = await buildAddDistributionIx(provider, collectionPubkey.toString(), authorityPubkey.toString());
 
@@ -27,7 +31,7 @@ export const createCollectionWithRoyalties = async (args: { name: string; symbol
     const messageV0 = new TransactionMessage({
         payerKey: authorityPubkey,
         recentBlockhash: blockhash,
-        instructions: [ createCollectionIx, addDistributionIx ],
+        instructions: [ prioIx, createCollectionIx, addDistributionIx ],
       }).compileToV0Message();
     const txn = new VersionedTransaction(messageV0);
 
@@ -74,7 +78,6 @@ export const createDistribution = async (args: { collection: string; }) => {
     const _sig = await provider.connection.sendTransaction(txn, {
         preflightCommitment: "confirmed"
     });
-    console.log(_sig);
 
     return {
         tx: _sig
@@ -114,7 +117,7 @@ export const mintNft = async (args: { name: string; symbol: string; uri: string;
     }
 
     const prioFeeIx = ComputeBudgetProgram.setComputeUnitPrice({
-        microLamports: 1_000
+        microLamports: 100_000
     });
     const mintIx = await buildMintNftIx(provider, mintDetails, minterPubkey.toString(), nftAuthPubkey.toString());
     const addToGroupIx = await buildAddGroupIx(provider, minterPubkey.toString(), groupAuthPubkey.toString(), mintPubkey.toString(), collectionPubkey.toString());
