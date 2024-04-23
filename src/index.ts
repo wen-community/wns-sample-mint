@@ -75,7 +75,7 @@ app.post("/fetchDistribution", async (req, res) => {
 app.get("/", async function (_, res) {
     res.send({ status: "true" });
 });
-
-app.listen(80, async () => {
-    console.log("The application is listening on port 80!");
+const port = process.env.PORT || 80;
+app.listen(port, async () => {
+    console.log(`The application is listening on port ${port}!`);
 });
