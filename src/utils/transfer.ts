@@ -2,7 +2,7 @@ import { PublicKey, SystemProgram } from "@solana/web3.js";
 import { BN, Provider } from "@coral-xyz/anchor";
 import { ASSOCIATED_TOKEN_PROGRAM_ID, createAssociatedTokenAccountInstruction, createTransferCheckedInstruction, createTransferCheckedWithTransferHookInstruction } from "@solana/spl-token";
 import { getATAAddressSync, getApprovalAccount, getDistributionAccount, getMetadataProgram } from "./core";
-import { TOKEN_PROGRAM_ID, DISTRIBUTION_PROGRAM_ID } from "./constants";
+import { TOKEN_PROGRAM_ID, DISTRIBUTION_PROGRAM_ID, WNS_PROGRAM_ID } from "./constants";
 
 export const buildApproveIx = async (provider: Provider, sender: string, mint: string, collection: string, paymentAmount: number, paymentMint: string) => {
     const metadataProgram = getMetadataProgram(provider);
@@ -13,8 +13,8 @@ export const buildApproveIx = async (provider: Provider, sender: string, mint: s
     const mintPubkey = new PublicKey(mint);
     const paymentMintPubkey = new PublicKey(paymentMint);
 
-    let senderTokenAccount = senderPubkey;
-    let programTokenAccount = distributionAccount;
+    let senderTokenAccount = WNS_PROGRAM_ID;
+    let programTokenAccount = WNS_PROGRAM_ID;
 
     if (paymentMint !== PublicKey.default.toString()) {
         senderTokenAccount = getATAAddressSync({ mint: paymentMintPubkey, owner: senderPubkey });
@@ -31,12 +31,12 @@ export const buildApproveIx = async (provider: Provider, sender: string, mint: s
             systemProgram: SystemProgram.programId,
             paymentMint,
             approveAccount,
-            associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
             tokenProgram: TOKEN_PROGRAM_ID,
             authorityTokenAccount: senderTokenAccount,
             distributionAccount: distributionAccount,
             distributionTokenAccount: programTokenAccount,
-            distributionProgram: DISTRIBUTION_PROGRAM_ID
+            distributionProgram: DISTRIBUTION_PROGRAM_ID,
+            paymentTokenProgram: WNS_PROGRAM_ID
         })
         .instruction();
 

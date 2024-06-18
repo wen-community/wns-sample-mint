@@ -20,7 +20,6 @@ export const getProvider = (connectionUrl: string) => {
 export const getMetadataProgram = (provider: Provider) => {
     return new Program(
         metadataIdl as Idl,
-        WNS_PROGRAM_ID,
         provider
     ) as unknown as Program<WenNewStandard>;
 }
@@ -28,7 +27,6 @@ export const getMetadataProgram = (provider: Provider) => {
 export const getDistributionProgram = (provider: Provider) => {
     return new Program(
         distributionIdl as Idl,
-        DISTRIBUTION_PROGRAM_ID,
         provider
     ) as unknown as Program<WenRoyaltyDistribution>;
 }

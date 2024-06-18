@@ -38,11 +38,12 @@ export const buildClaimDistributionIx = async (provider: Provider, collection: s
     }
 
     const ix = await distributionProgram.methods
-        .claimDistribution(mintPubkey)
+        .claimDistribution()
         .accountsStrict({
             creator: creatorPubkey,
             distribution: distributionAccount,
             creatorTokenAccount,
+            paymentMint: mintPubkey,
             distributionTokenAccount: programTokenAccount,
             tokenProgram: TOKEN_PROGRAM_ID,
         })

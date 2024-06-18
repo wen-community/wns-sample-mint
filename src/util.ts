@@ -195,7 +195,7 @@ export const transferNft = async (args: TransferNftArgs) => {
     const destination = args.to;
 
     const prioFeeIx = ComputeBudgetProgram.setComputeUnitPrice({
-        microLamports: 1_000
+        microLamports: 100_000
     });
     const createAtaIx = await buildAtaCreateIx(sender, nftMint, destination);
     const transferIx = await buildTransferIx(provider, nftMint, sender, destination);

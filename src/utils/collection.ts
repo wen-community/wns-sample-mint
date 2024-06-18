@@ -27,7 +27,6 @@ export const buildCreateCollectionIx = async (provider: Provider, args: CreateCo
             mint: mintPubkey,
             mintTokenAccount: getATAAddressSync({ mint: mintPubkey, owner: authorityPubkey }),
             systemProgram: SystemProgram.programId,
-            rent: SYSVAR_RENT_PUBKEY,
             associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
             tokenProgram: TOKEN_PROGRAM_ID,
             group: groupAccount,
