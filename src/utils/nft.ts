@@ -36,6 +36,7 @@ export const buildAddGroupIx = async (provider: Provider, payer: string, collect
     const metadataProgram = getMetadataProgram(provider);
 
     const groupAccount = getGroupAccount(collectionMint);
+    console.log({ groupAccount: groupAccount.toString() });
     const manager = getManagerAccount();
     const memberAccount = getMemberAccount(mint);
     const collectionAuthPubkey = new PublicKey(collectionAuthority);

@@ -158,6 +158,47 @@ export type WenRoyaltyDistribution = {
       "args": []
     },
     {
+      "name": "updateBumpDistribution",
+      "docs": [
+        "Update bump field for a distribution account"
+      ],
+      "discriminator": [
+        24,
+        65,
+        213,
+        232,
+        23,
+        92,
+        6,
+        41
+      ],
+      "accounts": [
+        {
+          "name": "signer",
+          "signer": true
+        },
+        {
+          "name": "distributionAccount",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "distribution_account.group_mint",
+                "account": "distributionAccount"
+              },
+              {
+                "kind": "account",
+                "path": "distribution_account.payment_mint",
+                "account": "distributionAccount"
+              }
+            ]
+          }
+        }
+      ],
+      "args": []
+    },
+    {
       "name": "updateDistribution",
       "docs": [
         "Update royalty amount for creators a distribution account."

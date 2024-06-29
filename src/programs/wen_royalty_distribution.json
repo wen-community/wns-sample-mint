@@ -152,6 +152,47 @@
       "args": []
     },
     {
+      "name": "update_bump_distribution",
+      "docs": [
+        "Update bump field for a distribution account"
+      ],
+      "discriminator": [
+        24,
+        65,
+        213,
+        232,
+        23,
+        92,
+        6,
+        41
+      ],
+      "accounts": [
+        {
+          "name": "signer",
+          "signer": true
+        },
+        {
+          "name": "distribution_account",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "distribution_account.group_mint",
+                "account": "DistributionAccount"
+              },
+              {
+                "kind": "account",
+                "path": "distribution_account.payment_mint",
+                "account": "DistributionAccount"
+              }
+            ]
+          }
+        }
+      ],
+      "args": []
+    },
+    {
       "name": "update_distribution",
       "docs": [
         "Update royalty amount for creators a distribution account."
