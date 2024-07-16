@@ -57,5 +57,7 @@ export const fetchDistributionAccount = async (provider: Provider, distribution:
 
     const acc = await distributionProgram.account.distributionAccount.fetch(distribution);
 
-    console.log({ acc });
+    const claimData = acc.claimData;
+
+    claimData.map((c) => console.log({ addy: c.address.toString(), amt: c.claimAmount.toNumber() }));
 }
